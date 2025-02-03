@@ -11,4 +11,4 @@ const port = process.env.PORT || 5080;
 
 console.log('Starting on port', port);
 
-app.listen();
+app.listen(port);
